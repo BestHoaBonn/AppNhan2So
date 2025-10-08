@@ -1,0 +1,24 @@
+import java.awt.window;
+package Nhan2So.WindowNhan2So;
+import java.swing.*;
+
+public class WindowNhan2So extends JFrame {
+    public WindowNhan2So(){
+        Jlabel lblSo1 = new JLabel("So thu nhat");
+
+        gridlayout grid = new gridlayout(3,2);
+
+        setLayout();
+        add(lblSo1);
+
+        setdefaultcloseoperation(JFrame.EXIT_ON_CLOSE);
+        pack();
+
+
+        setvisible(true);
+    }
+
+    public static void main(String[] args) {
+        new WindowNhan2So();
+    }
+}
